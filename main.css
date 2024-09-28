@@ -1,0 +1,242 @@
+:root{
+    --text:#626262;
+    --white:#fff;
+    --black:#212121;
+   --background:#2F303A;
+   --button:#2196F3;
+   --team:#F5F4FA;
+   
+}
+*{
+   box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+h1, h2, h3, h4, p, ul, li, img, a{
+    margin: 0;
+    padding: 0;
+}
+span{
+    color: var(--button);
+}
+h1{
+    color: var(--white);
+    font-weight: 900;
+    font-size: 44px;
+}
+h3{
+    color: var(--black);
+}
+h2{
+    color: var(--black);
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto ;
+    padding: 0 15px 0 15px;
+    border:1px solid orangered;
+
+}
+
+body{
+    color:var(--text);
+    background-color:var(--white);
+    font-family:'Roboto';
+    font-weight: 700;
+    line-height: 1.17;
+    font-size: 16px;
+}
+.header{
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+.WebStudio{
+    color: var(--black);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.33;
+    padding: 25px 0 ;
+    display: flex;
+    margin-right: 93px;
+    
+}
+.header-link{
+    color: var(--black);
+}
+.header-link:focus,
+.header-link:hover{
+    color: var(--button);
+}
+.header-nav{
+    display: flex;
+   
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.33;
+ gap: 344px;
+}
+.header-wrap{
+    display: flex;
+    align-items: center;
+}
+.header-menu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.header-contact{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.hero{
+   margin-bottom: 94px;
+   background-image:url(img/dd953143a8a4d9f86ec8d71afc0e8103.jpg) ;
+  background: radial-gradient();
+  width: 1600px;
+  height: 600px;
+}
+
+.advantages{
+   margin-bottom: 94px;
+}
+.list-advantages{
+    display: flex;
+    justify-content: space-between; 
+}
+.advantages-item::before{
+    content: " ";
+    display: block;
+    background-color: var(--team);
+    width: 270px;
+    height: 120px;
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./img/antenna1.png);
+    border-radius: 4px;
+}
+
+.projects{
+    margin-bottom: 94px;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+flex-direction: row;
+   gap: 30px;
+}
+.list-images{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    
+}
+.list-images:first-child{
+    margin-left: 215px;
+}
+.list-images:last-child{
+    margin-right: 215px;
+}
+.team{
+    margin-top: 94px;
+    background-color: var(--team);
+   width: 1600px;
+   height: 648px;
+}
+.team-list{
+    display: flex;
+    gap: 30px;
+}
+.team-card{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.team-wrap{
+    margin-top: 186px;
+    margin-bottom: 94px;
+}
+.team-item{
+    box-shadow: 0px 2px 1px 0px #00000033;
+
+    box-shadow: 0px 1px 1px 0px #00000024;
+    
+    box-shadow: 0px 1px 3px 0px #0000001F;
+    
+}
+.first{
+    margin-left: 215px;
+}
+.last{
+    margin-right: 215px;
+}
+
+.hero-btn{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 32px;
+  font-size: 16px;
+    font-weight: 700;
+    line-height: 1.85;
+    background-color: var(--button);
+    color: var(--white);
+
+}
+.advantages-title{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.33;
+    margin-bottom: 10px;
+}
+.team-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.33;
+}
+.section-title{
+    color:var(—black) ;
+    font-weight: 800;
+    line-height: 1.66;
+    font-size: 42px;
+    margin-bottom: 50px;
+    text-align:center;
+}
+.team-title{
+   font-size: 16px;
+    font-weight: 500;
+    line-height: 1.33;
+}
+.footer-link{
+    color: var(--white);
+}
+.list-footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.logo{
+    color: var(--white);
+    text-align: start;
+}
+.footer{
+    background-color:var(--black);
+    height: 251px;
+    width: 1600px;
+    padding: 60px 0 60px;
+   
+}
