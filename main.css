@@ -5,7 +5,8 @@
    --background:#2F303A;
    --button:#2196F3;
    --team:#F5F4FA;
-   
+   --icon:#AFB1B8;
+  
 }
 *{
    box-sizing: border-box;
@@ -41,7 +42,7 @@ h2{
 }
 
 .container{
-    width: 1200px;
+    width: 1170px;
     margin: 0 auto ;
     padding: 0 15px 0 15px;
     border:1px solid orangered;
@@ -207,6 +208,32 @@ flex-direction: row;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.33;
+}
+.text-clients{
+    margin-top: 94px;
+}
+.clients-icons{
+    fill:var(--icon) ;
+}
+.button-clients{
+    border: 1px solid;
+    border-color: var(--icon);
+    background-color: var(--white);
+    border-radius: 1px;
+}
+.button-clients:hover,
+.button-clients:focus{
+    border-color: var(--button);
+}
+.clients-icons:hover,
+.clients-icons:focus{
+    fill: var(--button);
+}
+.list-clients{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 94px;
 }
 .section-title{
     color:var(—black) ;
