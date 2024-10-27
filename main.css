@@ -17,6 +17,7 @@ a{
 
 ul{
     list-style: none;
+    
 }
 
 h1, h2, h3, h4, p, ul, li, img, a{
@@ -42,7 +43,7 @@ h2{
 }
 
 .container{
-    width: 1170px;
+    width: 1200px;
     margin: 0 auto ;
     padding: 0 15px 0 15px;
     border:1px solid orangered;
@@ -134,6 +135,28 @@ body{
 
 .projects{
     margin-bottom: 94px;
+}
+.project-wrap{
+    position: relative;
+}
+.block-project{
+    width: 370px;
+    height: 70px;
+    background-color: var(--black);
+    position: absolute;
+    bottom: 0;
+    opacity: 80%;
+}
+.text-project{
+    text-transform: uppercase;
+    position:absolute ;
+    bottom: 30px;
+    left: 100px;
+    text-align: center;
+    color: var(--white);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
 }
 .images{
     display: flex;
