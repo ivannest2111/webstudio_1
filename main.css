@@ -104,6 +104,35 @@ body{
     gap: 50px;
     align-items: center;
 }
+.svg-header{
+    width: 14px;
+    height: 14px;
+    fill: var(--icon);
+    margin-right: 10px;
+}
+
+.svg-header:hover,
+.svg-header:focus{
+    fill: var(--button);
+}
+.header-item-contact{
+    display: flex;
+}
+.header-item-contact:hover,
+.header-item-contact:focus{
+fill: var(--button);
+color: var(--button);
+}
+.svg-header-number{
+    width: 10px;
+    height: 16px;
+    fill: var(--icon);
+    margin-right: 10px;
+}
+.svg-header-number:focus,
+.svg-header-number:hover{
+    fill: var(--button);
+}
 
 .hero{
    margin-bottom: 94px;
@@ -120,19 +149,19 @@ body{
     display: flex;
     justify-content: space-between; 
 }
-.advantages-item::before{
-    content: " ";
-    display: block;
+.block-advantages{
     background-color: var(--team);
     width: 270px;
     height: 120px;
-    background-size: 70px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(./img/antenna1.png);
-    border-radius: 4px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
 }
-
+.svg-advantages{
+    width: 70px;
+    height: 70px;
+   margin-top: 25px;
+}
 .projects{
     margin-bottom: 94px;
 }
@@ -183,9 +212,16 @@ flex-direction: row;
    width: 1600px;
    height: 648px;
 }
+.tea-card-text{
+    background-color: var(--white);
+}
 .team-list{
     display: flex;
     gap: 30px;
+}
+.team-title{
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 .team-card{
     display: flex;
@@ -196,7 +232,22 @@ flex-direction: row;
     margin-top: 186px;
     margin-bottom: 94px;
 }
+.svg-team{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    fill: var(--icon);
+}
+.svg-team:nth-last-child(4){
+    margin-right: 0;
+}
+.svg-team-list{
+    display: flex;
+    justify-content: center;
+}
 .team-item{
+    text-align: center;
+    background-color: var(--white);
     box-shadow: 0px 2px 1px 0px #00000033;
 
     box-shadow: 0px 1px 1px 0px #00000024;
