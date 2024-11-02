@@ -76,19 +76,21 @@ body{
 }
 .header-link{
     color: var(--black);
+    display: flex;
+    align-items: center;
 }
 .header-link:focus,
 .header-link:hover{
     color: var(--button);
-}
+    fill: var(--button);}
 .header-nav{
     display: flex;
-   
+   justify-content: space-between;
     align-items: center;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.33;
- gap: 344px;
+
 }
 .header-wrap{
     display: flex;
@@ -98,6 +100,7 @@ body{
     display: flex;
     align-items: center;
     gap: 50px;
+    margin-right: 318px;
 }
 .header-contact{
     display: flex;
@@ -107,14 +110,17 @@ body{
 .svg-header{
     width: 14px;
     height: 14px;
+    /*
     fill: var(--icon);
+    */
     margin-right: 10px;
 }
-
+/*
 .svg-header:hover,
 .svg-header:focus{
     fill: var(--button);
 }
+    */
 .header-item-contact{
     display: flex;
 }
