@@ -6,7 +6,7 @@
    --button:#2196F3;
    --team:#F5F4FA;
    --icon:#AFB1B8;
-  
+  --footer:#2F303A;
 }
 *{
    box-sizing: border-box;
@@ -245,14 +245,23 @@ flex-direction: row;
    width: 1600px;
    height: 648px;
 }
-
-.button-team{
-    background-color: var(--white);
-    border: none;
-    width: 44px;
-    height: 44px;
-    text-align: center;
+.team-link{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+border-radius: 50%;
 }
+.svg-team-list{
+    display: flex;
+    gap: 10px;
+}
+.svg-team-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .team-card-text{
     background-color: var(--white);
 }
@@ -274,9 +283,10 @@ flex-direction: row;
     margin-bottom: 94px;
 }
 .svg-team{
+    
+    margin: auto;
     width: 20px;
     height: 20px;
-    margin-right: 20px;
     fill: var(--icon);
 }
 .svg-team:nth-last-child(4){
@@ -362,7 +372,7 @@ flex-direction: row;
     text-align: start;
 }
 .footer{
-    background-color:var(--black);
+    background-color:var(--footer);
     height: 251px;
     width: 1600px;
     padding: 60px 0 60px;
