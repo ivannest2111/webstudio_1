@@ -139,8 +139,27 @@ color: var(--button);
 .svg-header-number:hover{
     fill: var(--button);
 }
+.title-hero{
+    margin-top: 200px;
+    
+}
 
+.hero-btn{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 32px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+    font-weight: 700;
+    line-height: 1.85;
+    background-color: var(--button);
+    color: var(--white);
+    margin-top: 30px;
+margin-bottom: 200px;
+}
 .hero{
+    text-align: center;
    margin-bottom: 94px;
    background-image:url(img/dd953143a8a4d9f86ec8d71afc0e8103.jpg) ;
   background: radial-gradient();
@@ -150,6 +169,14 @@ color: var(--button);
 
 .advantages{
    margin-bottom: 94px;
+}
+.advantages-title{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.33;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 .list-advantages{
     display: flex;
@@ -218,7 +245,15 @@ flex-direction: row;
    width: 1600px;
    height: 648px;
 }
-.tea-card-text{
+
+.button-team{
+    background-color: var(--white);
+    border: none;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+}
+.team-card-text{
     background-color: var(--white);
 }
 .team-list{
@@ -268,23 +303,8 @@ flex-direction: row;
     margin-right: 215px;
 }
 
-.hero-btn{
-    display: block;
-    margin: 0 auto;
-    padding: 10px 32px;
-  font-size: 16px;
-    font-weight: 700;
-    line-height: 1.85;
-    background-color: var(--button);
-    color: var(--white);
 
-}
-.advantages-title{
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.33;
-    margin-bottom: 10px;
-}
+
 .team-text{
     font-size: 16px;
     font-weight: 400;
