@@ -44,7 +44,18 @@
 <section class="hero">
    <div class="container hero-div">
     <h1 class="title-hero">ефективні рішення для вашого бізнесу</h1>
-    <button class="hero-btn">замовити послугу</button>
+    <button class="hero-btn" data-modal-open>замовити послугу</button>
+    <div class="backdrop is-hidden " data-modal>
+        <div class="modal">
+          <button type="button" class="btn-modal" data-modal-close>x</button>
+          <form class="form" action="">
+            <label class="label"><input class="input" type="text" width="100%">ім'я</label>
+            <label class="label"><input class="input" type="email" width="100%">Email</label>
+            <button type="submit">приєднатися до клану</button>
+          </form>
+        </div>
+      
+      </div>
    </div>
 </section>
 <section class="advantages container">
@@ -292,9 +303,30 @@
             <li><a href="#" class="footer-link">info@devstudio.com</a></li>
             <li><a href="#" class="footer-link">+38 096 111 11 11</a></li>
         </ul>
+        <div class="join-div">
+            <ul class="join-list-footer">
+                <li><h3 class="join-text-footer">ПРИЄДНУЙТЕСЬ</h3></li>
+                <li>
+                    <ul class="svg-list-footer" >
+                        <li class="svg-footer-item"><a class="svg-footer-link" href=""><svg class="join-svg">
+                            <use class="join-svg" href="./img-icomoon/symbol-defs.svg#icon-instagram"></use>
+                        </svg></a></li>
+                        <li class="svg-footer-item"><a class="svg-footer-link" href=""><svg class="join-svg">
+                            <use class="join-svg" href="./img-icomoon/symbol-defs.svg#icon-twitter"></use>
+                        </svg></a></li>
+                        <li class="svg-footer-item"><a class="svg-footer-link" href=""><svg class="join-svg">
+                            <use class="join-svg" href="./img-icomoon/symbol-defs.svg#icon-facebook"></use>
+                        </svg></a></li>
+                        <li class="svg-footer-item"><a class="svg-footer-link" href=""><svg class="join-svg">
+                            <use class="join-svg" href="./img-icomoon/symbol-defs.svg#icon-linkedin"></use>
+                        </svg></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
         </div>
         
     </footer>
-
+<script src="./code.js"></script>
 </body>
 </html>
