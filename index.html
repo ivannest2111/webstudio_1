@@ -48,10 +48,14 @@
     <div class="backdrop is-hidden " data-modal>
         <div class="modal">
           <button type="button" class="btn-modal" data-modal-close>x</button>
-          <form class="form" action="">
-            <label class="label"><input class="input" type="text" width="100%">ім'я</label>
-            <label class="label"><input class="input" type="email" width="100%">Email</label>
-            <button type="submit">приєднатися до клану</button>
+          <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+          <form class="form-hero"  action="">
+            
+            <label class="label-hero" for="name">ім'я<input class="input-hero" id="name" name="ім'я"  type="text" width="100%"></label>
+            <label class="label-hero" for="tel">телефон<input class="input-hero" id="tel" type="tel" name="телефон" width="100%"></label>
+            <label class="label-hero" for="email">пошта<input class="input-hero" type="email" id="email" name="пошта" width="100%"></label>
+            <label class="label-hero" for="text">Коментар<textarea name="" class="input-hero textarea" placeholder="Введіть текст" id="text"></textarea></label>
+            <button type="submit" class="submit-button-modal">Відправити</button>
           </form>
         </div>
       
