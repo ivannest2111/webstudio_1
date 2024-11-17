@@ -47,14 +47,16 @@
     <button class="hero-btn" data-modal-open>замовити послугу</button>
     <div class="backdrop is-hidden " data-modal>
         <div class="modal">
-          <button type="button" class="btn-modal" data-modal-close>x</button>
+          <button type="button" class="btn-modal" data-modal-close><svg class="svg-hero-button">
+            <use class="svg-hero-button" href="./img-icomoon/symbol-defs-close.svg#icon-close"></use>
+          </svg></button>
           <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
           <form class="form-hero"  action="">
             
-            <label class="label-hero" for="name">ім'я<input class="input-hero" id="name" name="ім'я"  type="text" width="100%"></label>
-            <label class="label-hero" for="tel">телефон<input class="input-hero" id="tel" type="tel" name="телефон" width="100%"></label>
-            <label class="label-hero" for="email">пошта<input class="input-hero" type="email" id="email" name="пошта" width="100%"></label>
-            <label class="label-hero" for="text">Коментар<textarea name="" class="input-hero textarea" placeholder="Введіть текст" id="text"></textarea></label>
+            <label class="label-hero" for="name">ім'я<input class="input-hero human" id="name" name="ім'я"  type="text" width="100%"></label>
+            <label class="label-hero" for="tel">телефон<input class="input-hero phone" id="tel" type="tel" name="телефон" width="100%"></label>
+            <label class="label-hero" for="email">пошта<input class="input-hero mail" type="email" id="email" name="пошта" width="100%"></label>
+            <label class="label-hero" for="text">Коментар<textarea name="" class="input-hero text-area" placeholder="Введіть текст" id="text"></textarea></label>
             <button type="submit" class="submit-button-modal">Відправити</button>
           </form>
         </div>

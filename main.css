@@ -168,11 +168,13 @@ color: var(--button);
     transform: translate(-50%, -50%);
     width: 528px;
     height: 580px;
-    padding: 10px;
+    padding: 40px;
     background-color: var(--white);
     }
     .submit-button-modal{
-        display: block;
+
+        display: inline-block;
+        margin: 0 auto;
         border: none;
         border-radius: 4px;
         font-weight: 700;
@@ -182,22 +184,33 @@ color: var(--button);
         color: var(--white);
         text-align: center;
     }
-    .input-hero, .label-hero{
+.label-hero{
+    display: block;
+}
+    .input-hero{
+        display: block;
         width: 448px;
         height: 40px;
         border: 1px solid #21212133;
-        
+        padding: 14px 28px;
     }
+    .human::after{
+        display: block;
+        content: url(./img-icomoon/symbol-small-icons.svg#icon-person);
+        width: 12px;
+        background-image: ;
+        height: 12px;
+        fill: var(--black);
+    }
+        
     .text-area{
         width: 448px;
         height: 120px;
-        border: 1px solid #21212133
+        border: 1px solid #21212133;
+        resize:none;
     }
-    .input-hero{
-        
-    }
+
     .label-hero{
-        margin-top: 10px;
         text-align: start;
         border: none;
         font-family: 'Roboto';
@@ -223,12 +236,20 @@ color: var(--button);
 gap: 10px;
     }
     .btn-modal{
+        position: absolute;
+        right: 8px;
+        top: 8px;
         text-align: center;
         border: 1px solid #0000001A ;
         background-color: var(--white);
         border-radius: 50%;
         width: 30px;
         height: 30px;
+    }
+    .svg-hero-button{
+        width: 11px;
+        height: 11px;
+        fill: var(--black);
     }
 .hero-btn{
     display: block;
